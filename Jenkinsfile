@@ -14,7 +14,7 @@ stage("buildsrc") {
 steps {
           slackSend (color: "#f1502f", message: "Git URL is : ${env.GIT_URL}")
           slackSend (color: "#3e2c00", message: "GIT_AUTHOR_NAME is : ${env.GIT_AUTHOR_NAME}")
-          slackSend (color: "#3e2c00", message: "GIT_COMMIT is = ${env.GIT_COMMIT}")
+          slackSend (color: "#3e2c00", message: "GIT_COMMIT is : ${env.GIT_COMMIT}")
           slackSend (color: "add8e6", message: 'servicenow-munit-mule3 Deployment Started')
           buildsrc() 
           slackSend (color: "0000ff", message: 'servicenow-munit-mule3 Build Sucessfully')

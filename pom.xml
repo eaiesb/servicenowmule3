@@ -282,11 +282,13 @@
             <artifactId>mule-module-servicenow</artifactId>
             <version>5.4.1</version>
         </dependency>
+        
      <dependency>
          <groupId>com.google.guava</groupId>
          <artifactId>guava</artifactId>
          <version>19.0.20150826</version>
-</dependency>
+     </dependency>        
+  
     <dependency>
             <groupId>com.mulesoft.modules</groupId>
             <artifactId>mule-interceptor-module</artifactId>
