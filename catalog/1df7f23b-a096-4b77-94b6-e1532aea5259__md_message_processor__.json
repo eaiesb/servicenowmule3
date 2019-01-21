@@ -1,0 +1,16 @@
+{
+    "inputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "#_custom_mule_metadata_type_#",
+            "typeId": "insert"
+        }
+    },
+    "outputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "ServiceNow__Basic_Configuration",
+            "typeId": "incident||insert"
+        }
+    },
+    "id": "1df7f23b-a096-4b77-94b6-e1532aea5259",
+    "version": "5.2.0.0"
+}
