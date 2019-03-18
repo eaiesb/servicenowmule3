@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/servicenow http://www.mulesoft.org/schema/mu
 http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee/dw/current/dw.xsd
 http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd">
     <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration"/>
-    <servicenow:config name="ServiceNow__Basic_Configuration" username="admin" password="Eaiesb123" serviceAddress="https://dev52307.service-now.com/" doc:name="ServiceNow: Basic Configuration"/>
+    <servicenow:config name="ServiceNow__Basic_Configuration" username="admin" password="Eaiesb@123" serviceAddress="https://dev75723.service-now.com/" doc:name="ServiceNow: Basic Configuration"/>
     <flow name="servicenowentryFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/servicenow" doc:name="HTTP"/>
         <dw:transform-message doc:name="Transform Message" metadata:id="5f2edfe4-c35c-409d-8b55-bbeb214fa44f">
